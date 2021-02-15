@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  }
+
+.main_container{
+   background: url('../assets/images/background.jpg') no-repeat;
+   background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_logout{  
+    border: 0;
+    border-radius: 2px;
+    width: 50%;
+    height: 42px;
+    padding: 0 1.25rem;
+    margin:1rem auto;
+    font-size: 1em;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #fff;
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .btn_logout:hover {
+    background: #e14f50;
+  }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15rem;
+}
+
+.image_logo{
+    margin: 3rem 0;
+}
+
+
+.teste{
+    background: #fff;
+    width: 25%;
+    height: 550px;
+    border-radius: 5px;
+    padding: 2rem 0.2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0.3rem 0.8rem;
+}
+
+ .btn {
+    border: 0;
+    border-radius: 2px;
+    width: 90%;
+    height: 42px;
+    padding: 0 1.25rem;
+    margin:1rem auto;
+    font-size: 1em;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .content .btn:hover {
+    background: #e14f50;
+  }
+
+
+  
+ 
